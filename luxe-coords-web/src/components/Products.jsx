@@ -37,7 +37,7 @@ const ProductCard = ({ name, price, image }) => {
   };
 
   return (
-    <div className="group cursor-pointer">
+    <div id="products" className="group cursor-pointer">
       <div className="relative overflow-hidden aspect-[3/4] mb-4 bg-gray-100">
         <img 
           src={image} 
@@ -79,10 +79,7 @@ const Products = ({ items }) => {
           <h2 className="text-4xl font-serif italic text-gray-900">The Signature Edit</h2>
           <p className="text-gray-400 mt-2 tracking-wide">Curated for the modern woman</p>
         </div>
-        <a href="#" className="group flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-semibold border-b border-black pb-1">
-          View All 
-          <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1"/>
-        </a>
+        
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-12">
