@@ -76,7 +76,7 @@ const Products = ({ items }) => {
     <section className="py-24 px-6 max-w-7xl mx-auto" id="products">
       <div className="flex flex-col md:flex-row justify-between items-baseline md:items-end mb-12 gap-4">
         <div>
-          <h2 className="text-4xl font-serif italic text-gray-900">The Signature Edit</h2>
+          <h2 className="text-4xl font-serif italic text-gray-900">The Signature Collection</h2>
           <p className="text-gray-400 mt-2 tracking-wide">Curated for the modern woman</p>
         </div>
         
