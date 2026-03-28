@@ -64,7 +64,7 @@ function App() {
 
           {/* Admin Route - We pass fetchProducts so the dashboard can trigger updates */}
           <Route 
-            path="/admin" 
+            path="/luxe-admin" 
             element={
               <AdminDashboard 
                 products={products} 
