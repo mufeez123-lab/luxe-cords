@@ -83,7 +83,7 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-16 gap-6 text-center md:text-left">
           <div className="max-w-xl">
-            <h2 className="text-4xl font-serif italic mb-4">Luxe Stories</h2>
+            <h2 className="text-4xl font-serif italic mb-4">Product Reviews</h2>
             <p className="text-gray-500 leading-relaxed">
               Real customers, real moments. Swipe to see the stories.
             </p>
